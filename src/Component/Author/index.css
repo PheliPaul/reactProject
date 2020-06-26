@@ -1,0 +1,79 @@
+.second-block{
+ height: 9.4%;
+ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+ border-bottom: lavender 1.5px solid;
+ border-top: lavender 1.5px solid;
+ background-image: url('../../AssetsImage/watercolour.png');
+ background-repeat: no-repeat;
+ display: flex;
+}
+
+@font-face {
+    font-family: OpenSans-Bold ;
+    src: url(../../Font/OpenSans-Bold.ttf);
+   }
+@font-face {
+    font-family: OpenSans-ExtraBold ;
+    src: url(../../Font/OpenSans-ExtraBold.ttf);
+   }    
+.photo {
+   
+    margin-left: 68px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    
+   /* width:7.74%;
+    height: 76.2%;*/
+}
+.photo > img{
+   /* width: 100%; */
+    height:80px;
+    width:80px;
+    border-radius:50%;
+   /* width:7.74%;
+    height: 76.2%; */
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+
+}
+.name{
+    margin-top: 20px;
+    color: #000000;
+    font-family: OpenSans-Bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.designation{
+    width: 76px; /* 7.35%;*/
+    height: 21.9%;
+    background-color:#3462ea;
+    border-radius: 3px;
+    
+   /* vertical-align: middle; */
+
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "OpenSans-ExtraBold";
+    margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5px;
+    cursor: pointer;
+    
+}
+
+
+.intro_design{
+    width:300px ! important;
+    color:black ! important ;
+    background-color: #ccc !important;
+    font-size: 20px !important;
+   
+   
+}

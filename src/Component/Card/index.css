@@ -1,0 +1,146 @@
+@font-face {
+    font-family: OpenSans-Regular ;
+    src: url(../../Font/OpenSans-Regular.ttf);
+   }
+   @font-face {
+    font-family: OpenSans-Bold ;
+    src: url(../../Font/OpenSans-Bold.ttf);
+   }
+
+   @font-face {
+    font-family: OpenSans-SemiBold ;
+    src: url(../../Font/OpenSans-SemiBold.ttf);
+   }
+.card-block{
+    
+   /* height:45.3%;*/ /* question */
+  /* width: 23.4%;   100%; 23.4%; 56%; */
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+   /* border:5px slid red;*/
+    border: solid 1px #e1e1e1; 
+
+}
+.card-block1{
+  /*  width: 100%; */
+    height:45.1%;
+}
+.card-block1 > img{
+    width: 100%;
+   
+}
+.gray-marker{
+    margin-top: 15px;
+    background-color: #d8d8d8;
+    height: 1px;
+}
+.card-block2{
+    width: 84.1%;
+    height:54.9% ;
+    margin-left: 18px;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-block2-1{
+    width: 100%;
+    height:52.6% ;
+    
+}
+.card-block2-1-first{
+    margin-top: 9px;
+    margin-bottom: 6px;
+    color:#9a9a9a ;
+    font-size: 11px;
+    font-family: 'OpenSans-Regular';
+    line-height: 15px;
+
+}
+.card-block2-1-second{
+    margin-bottom: 15px;
+    line-height: 36px;
+    color:#3b3b3b ;
+    font-size: 13px;
+    font-family: 'OpenSans-SemiBold';
+    line-height: 15px;
+    
+
+}
+
+.card-block2-2{
+    width: 100%;
+    height: 47.4%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-block2-2-first{
+    margin-top: 18px;
+    margin-bottom: 17.1px;
+    
+    font-size: 11px;
+    /*font-family: 'OpenSans-Regular'; */
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.star{
+    color:#f5c123 ;
+    line-height: 9.9px;
+}
+.rating{
+    letter-spacing:0.7px ;
+    font-family:'OpenSans-Bold' ;
+    font-size: 11px;
+    color: #4a4a4a;
+    line-height:15px; /* 9.9px; */
+    margin-left: 6.5px;
+}
+.eye{
+    line-height:8px;
+    opacity: 0.5;
+    color: #4a4a4a;
+    margin-right: 3px;
+
+}
+
+#no{
+    letter-spacing:0.7px ;
+    font-family:'OpenSans-SemiBold' ;
+    font-size: 11px;
+    color: #4a4a4a;
+    line-height: 15px;
+}
+.card-block2-2-second{
+    display: flex;
+  /*  justify-content: space-between; */
+    margin-bottom: 14px;
+    line-height: 15px;
+    color:#3b3b3b ;
+    
+}
+.last-icon-0,.last-icon-1,.last-icon-2,.last-icon-3,.last-icon-4,.last-icon-5,.last-icon-6,.last-icon-7{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.last-icon-0,.last-icon-1{
+    color:red;
+}
+.last-icon-2,.last-icon-3,.last-icon-4,.last-icon-5,.last-icon-6,.last-icon-7{
+    color: blue;
+}
+
+.line{
+    font-size: 11px;
+    font-family: 'OpenSans-Regular';
+    line-height: 15px;
+    letter-spacing: 0.7px;
+    color: #4a4a4a;
+}
+
+
+

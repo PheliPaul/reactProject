@@ -1,0 +1,55 @@
+.first-block{
+    height: 5.4%;/* 5.1%; */
+    display: flex;  
+   
+}
+@font-face{
+    font-family: OpenSans-Bold ;
+    src: url(../../Font/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: OpenSans-Regular ;
+    src: url(../../Font/OpenSans-Regular.ttf);
+
+}
+.item-first{
+    margin-left: 36px;
+    margin-top:27px ;
+    margin-bottom:16px ;
+    margin-right:52px ;
+    color:  #2864f9;    /*#2864f9; */
+    font-size: 12px;
+    font-family: 'OpenSans-Bold'; 
+  
+    margin-bottom: 12px;
+    letter-spacing: 0.6px ;
+     /*border: lawngreen 1px solid;   border-bottom:3px solid #2864f9;padding-bottom: auto;
+   border-bottom:3px solid #2864f9; padding-bottom: 12px;
+    */
+    line-height: 17px; 
+}
+.item{
+    margin-top:27px ;
+    margin-bottom:16px ;
+    margin-right:52px ;
+    font-size: 12px;
+    font-family: 'OpenSans-Regular';/* helvetica is not available in google font              */
+    letter-spacing: 0.6px ;
+    color: #4a4a4a;
+    line-height: 17px;  
+   
+}
+a{
+    text-decoration: none;
+}
+
+/* #id{
+  /*  background-color:#2864f9 ;
+    margin-bottom: 12px;
+    margin-left: 29px;
+    height: 23px; 
+    width: 60px; 
+   
+    margin-left: inherit;
+} */
+

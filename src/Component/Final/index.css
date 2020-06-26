@@ -1,0 +1,17 @@
+.final-block{
+    
+   /* width: 93.3%;  */
+    margin-left: 35px;
+    margin-right: 34px;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns:  23.4% 23.4% 23.4% 23.4%;        /*auto auto auto auto; */
+  /*  grid-template-rows: 45.3% 45.3% 45.3% 45.3%; */
+    justify-content: space-between;
+    /*grid-template-rows: 45.3% 45.3% 45.3% 45.3% ;
+    grid-template-columns:152  ; */
+    grid-gap: 20px;
+    
+    
+    
+}

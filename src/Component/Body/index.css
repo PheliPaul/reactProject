@@ -1,0 +1,17 @@
+.bbody{
+    display: flex;
+    background-color: #f8f8f8;
+    width: 100%;
+   
+    
+
+}
+
+.bbody-right{
+    width:80.8%;
+    height:93.6%; 
+   /* height:93.6%; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    
+}
+

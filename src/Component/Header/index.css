@@ -1,0 +1,220 @@
+@font-face {
+    font-family: OpenSans-Regular ;
+    src: url(../../Font/OpenSans-Regular.ttf);
+   }
+
+
+.header{
+    
+    height: 6.44%;
+    background-color: #2864f9;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+   
+}
+/*
+.logo{
+    width: 19.2%; 
+   
+} */
+.logo > img{
+    background-color: azure;
+    margin:25.4px 59.4px 22.8px 42.6px;
+   
+    /*color:  #eb6969;
+    color: #3462ea;*/
+}
+
+
+.search{
+    width: 57.1%;      /*;57.1%; 83.6%*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.search-small{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    height: 57.1%;
+   /* width: 14.4%; */
+    background-color: rgba(0, 0, 0, 0.08); /* #000000;   #2864f9;*/
+    /* opacity: 0.08; */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    
+}
+#nname{
+    font-family: "OpenSans-Regular";
+    font-size: 12px;
+    letter-spacing: 0.65px;
+    color:#ffffff; 
+   /* background-color: darkblue;  i have added it to make it visible */ /* how can i make the name & icon aligned*/
+   
+   
+}
+#nicon{
+    color:#ffffff;
+    margin-left: 16px;
+    margin-right: 12px;
+    margin-top:18px ;
+    margin-bottom: 17px;
+    cursor: pointer;
+    display: block;
+    
+}
+.search-big{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    height: 57.1%; 
+    width: 100%;  
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.08);
+   /* background-color: #2864f9; opacity: 0.08;  #000000;  #2864f9
+    opacity: 0.08; */
+    border-radius: 4px;
+    display: flex;
+    /*justify-content: space-between; */
+    align-items: center;
+   
+}
+
+
+#mname{
+    font-family: "OpenSans-Regular";
+    width: 100% ;
+  /*  height: inherit; */
+   background-color: rgba(0, 0, 0, 0.08);
+    border:0;
+    font-size: 13px;
+    letter-spacing: 0.65px;
+    color: #ffffff; 
+    /* color: #ffffff; opacity: 0.6;*/
+   
+}
+#micon{
+    color:#ffffff;
+    margin-left: 16px;
+    margin-right: 15px;
+    /*height: 15px;
+    width: 15px; */
+    font-size: 13px;
+}
+
+
+
+.right-header{
+ /*   width:23.7% ;   23.7%; 16.4% */
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    
+   
+}
+.message{
+    color: #ffffff;
+    opacity: 0.47;
+    margin-left:133px;
+    font-size: 20px;
+    
+}
+.bell{
+    color: #ffffff;
+    opacity: 0.47;
+    margin-left: 31px;
+    margin-right: 33px;
+    font-size: 18px;
+}
+.profile{
+    color: rgb(144, 15, 15);  /*#ffffff; */
+    margin-right:  52px;
+    cursor: pointer;
+}
+.profile :hover{
+    background-color:rgba(24, 193, 30, 0.08);
+    border-radius: 50%;
+    border:1px solid black;
+    padding: 10px;
+    color:rgba(0, 0, 0, 0.15);
+    
+}
+.logout{
+ /*width:400px !important;
+ height:400px !important; */
+ display: flex !important;
+ align-items: center !important;
+justify-content: center !important;
+ margin-top: auto !important;
+ margin-bottom: auto !important;
+ position: absolute !important;
+ top: 150px !important;
+ bottom:150px ;
+ left:400px !important;
+ right:400px !important;
+ 
+}
+.logout_text{
+ font-size: 20px;
+ text-align: center;
+ 
+ color:black;
+}
+.logout_option{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout_option button{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: burlywood;
+    cursor: pointer;
+    
+}
+
+.lets_try{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    background: #eee;/*rgba(50, 0, 0, 0.5); */
+    padding: 30px;
+    border-radius: 6px;
+
+   
+    
+}
+.close_model_button{
+    padding: 20px;
+    width: 160px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.exit{
+   float:right;
+   font-size: 16px;
+   cursor: pointer;
+   background-color:lightgreen;
+}
+
+.fform{
+    position: absolute;
+    left:150px;
+    top:150px;
+    display: none;
+    font-size: 30px;
+}
+.testing{
+    width:250px;
+    height:200px;
+    background-color: red;
+    text-align: center;
+}
