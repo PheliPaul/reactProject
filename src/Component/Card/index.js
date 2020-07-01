@@ -32,22 +32,24 @@ const Card= (props) =>{
                     <div className="card-block2-1-second">{props.c_title}</div>
                 </div>
                 <div className="gray-marker"></div>
-                <div className="card-block2-2"></div>
+                <div className="card-block2-2">
                 <div className="card-block2-2-first">
                     <div className="star">
-                       { ratings.map(e=>(<FaStar/>       ))}
-                       { ratings2.map(e=>(<FiStar/>      ))}
-                        
-                      
-                        <span className="rating">{props.rating}</span></div>
-                    <div className="eye"><AiOutlineEye/><span id="no">{props.view}</span></div> 
+                        <div> { ratings.map(e=>(<FaStar/>       ))}
+                        { ratings2.map(e=>(<FiStar/>      ))}</div>
+                        <span className="rating">{props.rating}</span>
+                    </div>
+                    <div className="eye">
+                        <AiOutlineEye/>
+                        <span id="no">{props.view}</span>
+                    </div> 
                 </div>
                 <div className="card-block2-2-second">
                 <div className={`last-icon-${props.no}`}><i className={`${icon} icon`}></i></div>
                     <div className="line">{props.status}</div>
                 </div>
             </div> 
-           
+            </div>
 
         </div>
     );

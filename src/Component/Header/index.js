@@ -14,35 +14,57 @@ import Modal from 'react-modal';
 //import { Select } from 'semantic-ui-react';
 import DropDown from "../../ToolTip";
 
- const dropDown =()=>{
+ /*const dropDown =()=>{
    
     console.log("kikos")
       return <DropDown/>
         
      
-};   
+};   */
 
  const Header =() =>{
     const [show,setShow] = useState(false);
-    const [course,setCourse] =useState('Courses');
+    const [showExit,setShowExit] = useState(false);
+    const [change,setChange] =useState('Courses');
    // const [view,setView] =useState(false);
-
-    const[showDropDown,setShowDropDown]=useState(false);
-console.log(course);
+   //const[showDropDown,setShowDropDown]=useState(false);
+   //console.log(course);
+   const selectedOption = (item)=>{
+    setChange(item);
+    setShow(false);
+  };
     
     return(
         <div className="header">
-      
-
             <div className="logo"><img src={gama} alt="logo"/></div>
             <div className="search">
-                        <button className="search-small">
-    <span  id="nicon" onClick={()=>setShowDropDown(true)}><FaAngleDown /> </span>
-                            <span id="nname">{course}</span>
-                               
+            <span className="search-small" >
+                  <span id="nicon" onClick={()=>setShow(true)}><FaAngleDown/></span>
+                  <span id="nname">{change}</span>
+            {show && <div className="second">
+   < div className="option" onClick={()=>{selectedOption("long term course")}}> long term Course</div>
+   < div className="option" onClick={()=>{selectedOption("short term")}}>short term Course</div>
+   <div className="option" onClick={()=>{selectedOption("Daily Course")}}>Daily Course</div>
+   <div className="option" onClick={()=>{selectedOption("Quarterly Course")}}>Quarterly Course</div>
+   <div className="option" onClick={()=>{selectedOption("weekly Course")}}>weekly Course</div>
+  </div>}
+  </span>
+
+
+           {/* <select className="search-small" id="abg" name="op">   
+               {true && <div>
+               <option value="" disabled hidden selected >Course</option>                      
+                <option  value="Long Term Course" >Long Term Course</option>
+                <option  value="Short Term Course">Short Term Course</option>
+                <option value="Monthly Course">Monthly Course</option>
+                <option value="Quarterly Course">Quarterly Course</option>
+                <option value="Daily Course">Daily Course</option>
+                </div>  }
+        
+               </select>   */}
                             
           
-                        </button>
+                       
                         <form className="search-big">
                             <FaSearch span id="micon"/>
                             <input id="mname" placeholder="Find a subject, courses, group..."></input>
@@ -52,12 +74,12 @@ console.log(course);
             <div className="right-header">
                         <div className="message"><MdTextsms /></div>
                         <div className="bell"><MdNotifications /></div>
-                        <div className="profile" onClick={()=>setShow(true)} data-tip data-for="profile"><FaUserAlt /></div>
-                        <ReactTooltip id="profile">Click On Me</ReactTooltip>
+                        <div className="profile" data-tip data-for="profile"  onClick={()=>setShowExit(true)} ><FaUserAlt /></div>
+                        <ReactTooltip id="profile">Click On Me To Logout</ReactTooltip>
                                     
              </div>   
-                   <Modal className="lets_try" isOpen={show} onRequestClose={()=>setShow(false)} >
-                       <div className="exit" onClick={()=>setShow(false)}><GoX/></div>
+                   <Modal className="lets_try" isOpen={showExit} onRequestClose={()=>setShowExit(false)} style={{overlay:{backgroundColor:"rgba(0,0,0,.7)"}}}>
+                       <div className="exit" onClick={()=>setShowExit(false)}><GoX/></div>
                         <div className="logout_text">
                             
                             <h1>Do you want to logout?</h1>
@@ -67,9 +89,8 @@ console.log(course);
                             </div>
                           
                         </div>
-                    </Modal>  
-
-                     {showDropDown && <div className="testing">testing</div>}             
+            </Modal>  
+                         
         </div>
 
        
@@ -155,5 +176,11 @@ export default Header;
         </ul>
     </div> }
 
+<button className="search-small">
+    <span  id="nicon" onClick={()=>setShowDropDown(true)}><FaAngleDown /> </span>
+                            <span id="nname">{course}</span>
 
+
+
+                            
  */

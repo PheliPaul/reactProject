@@ -20,6 +20,7 @@ function App() {
     <BrowserRouter>
       <Switch>
       <div className="full-page">
+      <Route path="/coo" exact render={props =><Course1{...props} />} ></Route>
              <Route path="/" exact component={Header}></Route>  
              
             <div className="bbody">
@@ -30,7 +31,7 @@ function App() {
                       <Route path="/" exact component={Author} />
                       <Route path="/" exact component={Bio} />
                       <Route path="/" exact component={TwoOption} ></Route>
-                      <Route path="/coo" exact render={props =><Course1{...props} />} ></Route>
+                     
                       <Route path="/" exact component={ Final} />
              </div>  
            </div> 

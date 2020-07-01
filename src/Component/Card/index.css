@@ -83,28 +83,37 @@
     
     font-size: 11px;
     /*font-family: 'OpenSans-Regular'; */
-    
+     line-height: 9.9px;
     display: flex;
     justify-content: space-between;
 
 }
 .star{
     color:#f5c123 ;
-    line-height: 9.9px;
+    
+   
+    display: flex;
+    align-items: center;
 }
 .rating{
     letter-spacing:0.7px ;
     font-family:'OpenSans-Bold' ;
     font-size: 11px;
     color: #4a4a4a;
-    line-height:15px; /* 9.9px; */
+   
     margin-left: 6.5px;
+   
+   
 }
 .eye{
-    line-height:8px;
+    line-height:9.9px;/*8px; */
     opacity: 0.5;
     color: #4a4a4a;
     margin-right: 3px;
+  
+   display: flex;
+   align-items: center;
+  
 
 }
 
@@ -113,7 +122,7 @@
     font-family:'OpenSans-SemiBold' ;
     font-size: 11px;
     color: #4a4a4a;
-    line-height: 15px;
+    line-height:9.9px /*15px;*/
 }
 .card-block2-2-second{
     display: flex;

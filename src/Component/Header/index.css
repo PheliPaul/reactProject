@@ -47,6 +47,9 @@
     display: flex;
     align-items: center;
     border: 0;
+    color:#ffffff;
+    position: relative;
+
     
 }
 #nname{
@@ -131,16 +134,18 @@
     font-size: 18px;
 }
 .profile{
-    color: rgb(144, 15, 15);  /*#ffffff; */
+    color: #ffffff; 
     margin-right:  52px;
     cursor: pointer;
 }
 .profile :hover{
-    background-color:rgba(24, 193, 30, 0.08);
+    background-color:blue;
     border-radius: 50%;
     border:1px solid black;
-    padding: 10px;
-    color:rgba(0, 0, 0, 0.15);
+    /*padding: 4px; */
+    font-size: 20px;
+    color:white;
+    /*box-shadow: 0px 0px 0px white; */
     
 }
 .logout{
@@ -218,3 +223,57 @@ justify-content: center !important;
     background-color: red;
     text-align: center;
 }
+
+select {
+    direction: rtl;
+    
+   
+}
+
+option{
+    direction: ltr;
+    color:red;
+    padding:15px;
+   
+}
+
+
+
+/*.first{
+    position: relative;
+  left: 100px;
+  top:50px;
+    background-color: greenyellow;
+    border: indigo 1px solid;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    
+  }*/
+  .second{
+    position: absolute;
+    top:49px;   /*7.7px; */
+    left: 0px;
+    margin-left: 0px;
+   /* margin-top: 20px;*/
+   /* margin-top: 0px;*/
+    background-color: gray;
+    width:225%;
+    
+  }
+  
+  .option{
+    padding: 7px;
+    cursor: pointer;
+   border:1px solid blue; 
+  }
+ 
+  li{
+   list-style-type: none;  
+   padding: 10px;
+   cursor: pointer;
+  border:1px solid blue;
+  font-weight: normal;
+  
+   
+  }
